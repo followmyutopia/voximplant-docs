@@ -2,12 +2,12 @@
 A new GitHub-based Voximplant documentation website
 
 ## What do we lack for the documentation?
-1. Tables support
+1. Tables support — done, we can use HTML tables, easy
 1. Multi-tab code snippets
 
 Let's try to use html for a table.
 
-<table>
+<table style="width: 100%">
   <tr>
     <th>Header One</th>
     <th>Header Two</th>
