@@ -24,6 +24,8 @@ Let's try to use html for a table.
 
 Done. Now let's try to create a multi-tab code snippets:
 
+1. We can use [Readme Engine](https://rdmd.readme.io/docs/getting-started) to render multi-tab code blocks, but I don't know how to import this functionality to GitHub.
+
 ```javascript I'm A tab
 console.log('Code Tab A');
 ```
