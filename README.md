@@ -7,7 +7,7 @@ A new GitHub-based Voximplant documentation website
 
 Let's try to use html for a table.
 
-<table style="width: 100%">
+<table>
   <tr>
     <th>Header One</th>
     <th>Header Two</th>
