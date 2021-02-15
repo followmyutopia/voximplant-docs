@@ -21,3 +21,12 @@ Let's try to use html for a table.
     <td>Bacon Voximplant</td>
   </tr>
 </table>
+
+Done. Now let's try to create a multi-tab code snippets:
+
+```javascript I'm A tab
+console.log('Code Tab A');
+```
+```javascript I'm tab B
+console.log('Code Tab B');
+```
