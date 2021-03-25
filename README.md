@@ -31,6 +31,18 @@ Use the standard markdown syntax to create [a link](#voximplant-documentation-sy
 
 ### Voximplant special syntax
 We use special syntax for code blocks, for multi-tab code with 
+    ```vox.multicode
+    env: voxengine
+    title:Test title
+    description:
+    ====
+    highlight : 
+    link : 
+    name : 
+    lang : javascript
+    ----
+    console.log("This is just a test code line")
+    ```
 
 For tables, we use simplified syntax
 | something | something |
