@@ -53,7 +53,6 @@ name : script
 lang : curl
 ----
 curl "https://api.voximplant.com/platform_api/ControlSms/?account_id=1&api_key=eec36d6c-a0eb-46b5-a006-1c2b65343bac&phone_number=447443332211&command=disable"
-
 ```
 ```vox.multicode
 env: http_api

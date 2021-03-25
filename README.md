@@ -1,6 +1,5 @@
 # voximplant-docs
-A new GitHub-based Voximplant documentation website
-
+A new GitHub-based Voximplant documentation website  
 Currently work in progress by Avi and Irina M.
 
 ## Voximplant documentation syntax guide
@@ -30,7 +29,11 @@ Use the standard markdown syntax to create [a link](#voximplant-documentation-sy
 **guides-sms-phonenumber-buyanumber.png**
 
 ### Voximplant special syntax
-We use special syntax for **code blocks**, for multi-tab code with 
+This section explains what in Voximplant documentation differs from Markdown syntax.
+
+#### Code blocks
+We use special syntax for **code blocks**, for multi-tab code with tab titles, descriptions and links.
+
 ```vox.multicode
 env: voxengine
 title:Test title
@@ -44,6 +47,7 @@ lang : javascript
 console.log("This is just a test code line")
 ```
 
+#### Tables
 For **tables**, we use **simplified syntax**. Unlike markdown, which uses html table tag, Voximplant documentation uses vertical bar with a space "| " for left border of the table, a vertical bar surrounded by spaces " | " for all the middle borders, and a space and a vertical bar " |" for the right border. We support links and formatting within table cells. There should be no spaces before and after the line, and an empty line above and below the table.
 
 To see the syntax in action, please [edit this file](https://github.com/followmyutopia/voximplant-docs/edit/main/README.md):
