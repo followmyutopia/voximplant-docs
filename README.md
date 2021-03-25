@@ -30,20 +30,41 @@ Use the standard markdown syntax to create [a link](#voximplant-documentation-sy
 **guides-sms-phonenumber-buyanumber.png**
 
 ### Voximplant special syntax
-We use special syntax for code blocks, for multi-tab code with 
-    ```vox.multicode
-    env: voxengine
-    title:Test title
-    description:
-    ====
-    highlight : 
-    link : 
-    name : 
-    lang : javascript
-    ----
-    console.log("This is just a test code line")
-    ```
+We use special syntax for **code blocks**, for multi-tab code with 
+```vox.multicode
+env: voxengine
+title:Test title
+description:
+====
+highlight : 
+link : 
+name : 
+lang : javascript
+----
+console.log("This is just a test code line")
+```
 
-For tables, we use simplified syntax
-| something | something |
-| something | something |
+For **tables**, we use **simplified syntax**. Unlike markdown, which uses html table tag, Voximplant documentation uses vertical bar with a space "| " for left border of the table, a vertical bar surrounded by spaces " | " for all the middle borders, and a space and a vertical bar " |" for the right border. We support links and formatting within table cells. There should be no spaces before and after the line, and an empty line above and below the table.
+
+To see the syntax in action, please [edit this file](https://github.com/followmyutopia/voximplant-docs/edit/main/README.md):
+
+| **Lorem ipsum** | **Dolor sit amet** |
+| Bacon ipsum dolor amet | frankfurter strip steak meatloaf |
+| leberkas pork shank | bacon shoulder beef |
+
+This syntax builds the following table (for demonstration purpose):
+
+<table>
+    <tr>
+        <th>Lorem ipsum</th>
+        <th>Dolor sit amet</th>
+    </tr>
+    <tr>
+        <td>Bacon ipsum dolor amet</td>
+        <td>frankfurter strip steak meatloaf</td>
+    </tr>
+    <tr>
+        <td>leberkas pork shank</td>
+        <td>bacon shoulder beef</td>
+    </tr>
+</table>

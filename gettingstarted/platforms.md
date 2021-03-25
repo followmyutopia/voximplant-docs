@@ -12,29 +12,9 @@ Here you can find what platforms Voximplant currently supports.
 ## Supported SDKs
 Here you can find minimum supported SDK versions that support Voximplant:
 
-<table>
-    <tr>
-        <th>Platform</th>
-        <th>Minimum version</th>
-    </tr>
-    <tr>
-        <td>iOS</td>
-        <td>9.0</td>
-    </tr>
-    <tr>
-        <td>Android</td>
-        <td>16</td>
-    </tr>
-    <tr>
-        <td>React Native</td>
-        <td>0.47.0</td>
-    </tr>
-    <tr>
-        <td>Flutter</td>
-        <td>1.12.13+hotfix.6</td>
-    </tr>
-    <tr>
-        <td>Unity</td>
-        <td>2018 (LTS)</td>
-    </tr>
-</table>
+| **Platform** | **Minimum version** |
+| iOS | 9.0 |
+| Android | 16 |
+| React Native | 0.47.0 |
+| Flutter | 1.12.13+hotfix.6 |
+| Unity | 2018 (LTS) |
