@@ -7,7 +7,7 @@ Currently work in progress by Avi and Irina M.
 
 ### Basic markdown
 Surround some text with double asterisks ** for **bold text**, with single underscore _ for _italics_.  
-To make a new line, use double space; to make a new paragraph, use two enters.
+To make a new line, use double space at the end of the line; to make a new paragraph, use two enters.
 
 Pound symbols # are the **headers**.
 > Please note, that in Voximplant articles, there is only one level-one header #, and it is shown in the document tree. All the rest headers should be level-two ## or more (up to level-six).
@@ -32,7 +32,11 @@ Use the standard markdown syntax to create [a link](#voximplant-documentation-sy
 This section explains what in Voximplant documentation differs from Markdown syntax.
 
 #### Code blocks
-We use special syntax for **code blocks**, for multi-tab code with tab titles, descriptions and links.
+We use special syntax for **code blocks**, for multi-tab code with tab titles, descriptions and links.  
+
+> This section is WIP. I need sync with Andrey for all the possible variants of the snippet tags.
+
+To see the proper syntax, please [edit this file](https://github.com/followmyutopia/voximplant-docs/edit/main/README.md):
 
 ```vox.multicode
 env: voxengine
@@ -46,6 +50,20 @@ lang : javascript
 ----
 console.log("This is just a test code line")
 ```
+```vox.multicode
+env: voxengine
+title:Test title
+description:
+====
+highlight : 
+link : 
+name : 
+lang : javascript
+----
+console.log("This is just a test code line")
+```
+
+This will result in a two-tab code snippet.
 
 #### Tables
 For **tables**, we use **simplified syntax**. Unlike markdown, which uses html table tag, Voximplant documentation uses vertical bar with a space "| " for left border of the table, a vertical bar surrounded by spaces " | " for all the middle borders, and a space and a vertical bar " |" for the right border. We support links and formatting within table cells. There should be no spaces before and after the line, and an empty line above and below the table.
